@@ -1,0 +1,60 @@
+/* 
+    Document   : search.test.css
+    Created on : Apr 22, 2013, 6:44:56 PM
+    Author     : Alberto Miranda <alberto@getpocketoffice.com>
+    Description:
+        Styles for Twitter search test.
+*/
+
+@font-face {
+  font-family: 'Ubuntu Mono';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Ubuntu Mono'), local('UbuntuMono-Regular'), url(http://themes.googleusercontent.com/static/fonts/ubuntumono/v3/ViZhet7Ak-LRXZMXzuAfkbrIa-7acMAeDBVuclsi6Gc.woff) format('woff');
+}
+
+#searchContainer {
+    
+}
+
+#searchContainer input {
+    height:30px !important;
+}
+
+.tweet {
+    width: 700px;
+    color: white;
+    background: black;
+    opacity: 0.8;
+    margin:10px auto;
+    padding: 20px;
+}
+
+.tweet .author {
+    background: #111;
+    padding:10px;
+}
+
+.tweet .identity {
+    float:left;
+    font: 18px arial;
+}
+
+.tweet .authorDescription {
+    font-style: italic;
+    clear:both;
+    padding-top: 10px;
+    color: #444;
+}
+
+.tweet .message {
+    clear: both;
+    margin:20px 0;
+    color: #ddd;
+    font: 24px 'Ubuntu Mono';
+}
+
+.tweet .metadata {
+    font: normal normal normal 10px courier;
+    color: gray;
+}

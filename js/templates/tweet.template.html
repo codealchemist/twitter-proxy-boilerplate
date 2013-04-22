@@ -1,0 +1,19 @@
+<div class="tweet">
+    <div class="author">
+        <div class="identity">
+            <img src="{{ user.profile_image_url }}" />
+            <span class="authorName">{{ user.name }}</span>
+        </div>
+        
+        <div class="authorDescription">{{ user.description }}</div>
+    </div>
+    
+    <div class="message">
+        {{ text }}
+    </div>
+    
+    <div class="metadata">
+        <div>Created at: {{ created_at }}</div>
+        <div>Source: {{{ source }}}</div>
+    </div>
+</div>

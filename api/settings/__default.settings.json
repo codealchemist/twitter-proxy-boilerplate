@@ -1,0 +1,9 @@
+{
+    "twitter": {
+        "consumerKey": "YOUR-APP-CONSUMER-KEY-HERE",
+        "consumerSecret": "YOUR-APP-CONSUMER-SECRET-HERE",
+        "accessToken": "YOUR-APP-ACCESS-TOKEN-HERE",
+        "accessTokenSecret": "YOUR-APP-ACCESS-TOKEN-SECRET-HERE",
+        "oauthCallback": null
+    }
+}
